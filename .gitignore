@@ -33,5 +33,5 @@ build/
 .vscode/
 
 ### project ###
-/src/main/java/test/
+src/test/
 C/test/
