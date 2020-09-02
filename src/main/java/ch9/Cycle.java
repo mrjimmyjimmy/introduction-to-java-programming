@@ -8,25 +8,26 @@ import static java.lang.Math.*;
  */
 public class Cycle {
 
-    double radius = 1;
+    private double radius = 1;
 
-    Cycle() {
+    public Cycle() {
 
     }
 
-    Cycle(double radius) {
+    public Cycle(double radius) {
         this.radius = radius;
     }
 
-    double getArea() {
+    public double getArea() {
         return pow(radius, 2) * PI;
     }
 
-    double getPerimeter() {
+    public double getPerimeter() {
         return 2 * radius * PI;
     }
 
-    void setRadius(double radius) {
+    public void setRadius(double radius) {
         this.radius = radius;
     }
+
 }
