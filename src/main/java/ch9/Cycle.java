@@ -10,8 +10,10 @@ public class Cycle {
 
     private double radius = 1;
 
-    public Cycle() {
+    public static int numberOfObjects;
 
+    public Cycle() {
+        numberOfObjects++;
     }
 
     public Cycle(double radius) {

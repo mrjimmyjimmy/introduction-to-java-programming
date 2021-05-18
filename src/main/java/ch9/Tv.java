@@ -47,4 +47,13 @@ public class Tv {
     public void volumeDown() {
         volumeLevel--;
     }
+
+    @Override
+    public String toString() {
+        return "Tv{" +
+                "channel=" + channel +
+                ", volumeLevel=" + volumeLevel +
+                ", on=" + on +
+                '}';
+    }
 }
