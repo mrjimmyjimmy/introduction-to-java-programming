@@ -6,7 +6,13 @@ package ch11;
  */
 public class Person {
 
+    protected String name = "person";
+
     public Person() {
         System.out.println("1 performs Person");
+    }
+
+    public void main() {
+
     }
 }

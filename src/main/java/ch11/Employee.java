@@ -14,4 +14,8 @@ public class Employee extends Person {
     public Employee(String s) {
         System.out.println(s);
     }
+
+    @Override
+    public void main() {
+    }
 }

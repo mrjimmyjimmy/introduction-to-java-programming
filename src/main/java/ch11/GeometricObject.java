@@ -7,9 +7,9 @@ import java.util.Date;
  * @date 2021/5/19 15:12
  */
 public class GeometricObject {
-    private String color = "white";
-    private boolean filled;
-    private Date dateCreated;
+    protected String color = "white";
+    protected boolean filled;
+    protected Date dateCreated;
 
     public GeometricObject() {
         dateCreated = new Date();
